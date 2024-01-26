@@ -22,7 +22,7 @@ public class ImageClassifier {
     }
 
 
-    // See below.
+    // Test code below
     public static void main(String[] args) {
         In training = new In(args[0]);
         int mTrain = training.readInt();
@@ -35,10 +35,7 @@ public class ImageClassifier {
             Picture a = new Picture(filenameTrain);
             double[] arrTrain = extractFeatures(a);
             train.trainMulti(arrTrain, labelTrain);
-
-
         }
-
         In testing = new In(args[1]);
         int mTest = testing.readInt();
         int widthTest = testing.readInt();
@@ -53,26 +50,8 @@ public class ImageClassifier {
                 StdOut.print(filenameTest + ", ");
                 StdOut.print("label = " + labelTest + ", ");
                 StdOut.print("predict = " + test.predictMulti(arrTest));
-
-
             }
-
-
         }
-        // COMMENT OUT PRINT STATEMENTS
-        // StdOut.println(m);
-        // StdOut.println(width);
-        // StdOut.println(height);
-        // StdOut.println(filename1);
-        // StdOut.println(label1);
-        // StdOut.println(filename2);
-        // StdOut.println(label2);
-
-
-        // double[] arr = extractFeatures(a);
-        // for (int i = 0; i < arr.length; i++) {
-        //     StdOut.print(arr[i]);
-        // }
     }
 }
 
