@@ -1,0 +1,5 @@
+# Anya-Anand-Portfolio
+
+Utilized symbol tables to create a Markov Model to analyze frequency of various characters within an inputted text.
+Utilized the Markov Model to then generate a piece of random text, where each character depended on the probability
+based off of this model. 
