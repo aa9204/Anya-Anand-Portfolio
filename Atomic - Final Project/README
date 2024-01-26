@@ -1,0 +1,5 @@
+# Anya-Anand-Portfolio
+
+Final project completed for Fall 2023 Semester in COS 126. This project applied concepts throughout the entire semester in order to
+verify Brownian motion, Einstein's model, and estimate Avogadro's number. This was a culminating project where Blob, BeadFinder, and 
+BeadTracker all build on eachother. Avogadro serves as a separate class to estimate Avogadro's number.
